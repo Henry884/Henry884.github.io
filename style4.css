@@ -1,0 +1,44 @@
+html {
+	background-color: yellowgreen;
+	background-size: cover;
+}
+
+
+h1 {
+	font-family: fantasy;
+	font-size: 250%;
+	color: orangered;
+}
+
+p {
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: Times New Roman;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+button {
+    color: red;
+	margin: 2px;
+	border-radius: 300px;
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: fantasy;
+    font-size: 1em;
+   
+}
+
+button:hover {
+	background-color: coral;
+}
